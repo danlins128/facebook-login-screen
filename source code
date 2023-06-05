@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.0.css">
+    <link rel="shortcut icon" href="https://static.xx.fbcdn.net/rsrc.php/yD/r/d4ZIVX-5C-b.ico?_nc_eui2=AeErYYEQcKgYdoWuFqwGDu4maBWfmC2eGbdoFZ-YLZ4Zt6HPFmCLp2yfW8zDHD90YP4TS9wH0JFPVrsr4ybQZac5" type="image/x-icon">
+    <title>Facebook - entre ou cadastre-se</title>
+</head>
+<body>
+    <main class="fb_content clearfix" id="content" role="main">
+        <article id="screen">
+            <article class="alling_content">
+                <section class="allingned">
+                    <div class="tittle_FB">
+                        <div class="'fb_logo" >
+                            <div class="logo">
+                                <img class="_img" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="facebook" srcset="">
+                            </div>
+                            <h2>
+                                O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
+                            </h2>
+                        </div>                        
+                        <section class="login_box">
+                            <section class="box_1">
+                                <section class="userinteract">
+                                    <div class="box_2">
+                                        <section class="putcontent">
+                                            <input type="text" class="inputtext_Email" name="email"
+                                            id="email" data-testid="royal_email" placeholder="Email ou telefone" autofocus="1" aria-label="Email ou telefone">
+                                        </section>
+                                        <section class="putcontent">
+                                            <section class="password" id="passContainer">
+                                                <input type="password" class="inputtext_password" name="pass" id="pass" data-testid="royal_pass" placeholder="Senha" aria-label="Senha" >
+                                                <div class="showpass">
+                                                    <a href="#" role="button">
+                                                        <div class="showcontent">
+                                                            <div class="showcontent_91" id="u_0_4_aL"></div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </section>                                            
+                                        </section>                                        
+                                    </div>
+                                    <section class="enterbutton">
+                                        <button value="1" class="enter" name="login" data-testid="royal_loginn_button" type="submit" id="u_0_5_RE">
+                                            Entrar
+                                        </button>
+                                    </section>
+                                    <section class="FogotPass">
+                                        <a id="fogot" href="https://pt-br.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">Esqueceu a senha?                                                    
+                                        </a>
+                                    </section>
+                                    <hr>
+                                    <section>
+                                        <button class="CreateNew_account">
+                                            <a id="new-account" href="Signup.html">Criar nova conta</a>
+                                        </button>
+                                    </section>
+                                </section>
+                                <article  class="_58mk">
+                                    <a id="reg_pages_msg" href="https://pt-br.facebook.com/pages/create/?ref_type=registration_form" class="_8esh">Criar uma Página</a> para uma celebridade, uma marca ou empresa.
+                                </article>
+                            </section>
+                        </section>
+                    </div>                            
+                </section>                  
+            </article>            
+        </article>
+        <script src="scripts.js"></script>
+    </main>
+</body>
+</html>
