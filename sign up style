@@ -1,0 +1,138 @@
+:root{
+    --color-white: #ffffff;
+    --color-grey: #eaebee;
+    --color-grey2: #dddfe2;
+    --color-dark: #1d2129;
+    --color-blue: #1b74e4;
+    --color-blue2: #166fe5;
+    --color-bluehold: #0d60c5;
+    --color-green: #42b72a;
+    --color-green2: #36a420;
+}
+
+body{
+    background-color: var(--color-grey);
+    
+}
+._img{
+    align-items: left;
+    justify-content: left;
+}
+.cabecalho{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 2rem;
+}
+
+hr{
+    width: 100%;
+    border: 1px solid var(--color-grey2);
+}
+h2._esl{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+#signup-content{
+    width: 432px;
+    height: 469px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    background-color: var(--color-white);
+    margin-left: 47rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    padding: 1rem;
+    flex-wrap: wrap;    
+}
+.titles{
+    display: flex;
+    flex-direction: column;    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    position: relative;    
+}
+.title_1{    
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.title_2{
+    margin-top: -2rem;
+    font-size: .9rem;
+    padding-left: .2rem;
+    font-weight: 500;
+    margin-bottom: -1rem;
+}
+
+.login_box{
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    
+}
+
+.border{
+    padding: 12px;
+    border: 1px solid var(--color-grey2);
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.login{
+    display: flex;
+    width: 100%;
+    
+}
+
+.name-box{
+    width: 90%;
+}
+
+.lastname-box{
+    display: flex;
+    width: 90%;
+    margin-left: .6rem;
+}
+
+
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+     padding: 1rem 0rem 1rem 0rem;
+}
+
+.enter{
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.btn{
+    border: none;
+    background-color: #166fe5;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 1.5rem;
+    transition: .2s;
+    cursor: pointer;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
+
+.btn:hover{
+    background-color: var(--color-bluehold);
+}
