@@ -1,0 +1,170 @@
+:root{
+    --color-white: #ffffff;
+    --color-grey: #eaebee;
+    --color-grey2: #dddfe2;
+    --color-dark: #1d2129;
+    --color-blue: #1b74e4;
+    --color-blue2: #166fe5;
+    --color-green: #42b72a;
+    --color-green2: #36a420;
+}
+body{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: var(--color-grey);
+}
+main{
+    display: flex;
+}
+#screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.alling_content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.allingned{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tittle_FB{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    padding: 1rem;
+    margin-top: 4rem;
+}
+._img{
+    height: 106px;
+    margin: -28px;
+}
+.fb_logo{
+    display: flex;
+    width: 100px;
+}
+h2{
+    width: 600px;
+    font-weight: 500;
+    margin-right: 80px;
+    margin-top: auto;
+    font-size: 1.9rem;
+    padding-left: 1rem;
+}
+.login_box{
+    display: flex;
+    width: 320px;
+    
+}
+.userinteract{
+    display: flex;
+    background-color: var(--color-white);
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 1rem;
+    gap: 1rem;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+hr{
+    width: 100%;
+    border: 1px solid var(--color-grey);
+}
+
+#email{
+    border: 1px solid var(--color-grey2);
+    border-radius: 6px;
+    width: 90%;
+    padding: 1rem;
+    outline-color: var(--color-blue);
+    font-size: 1.2rem;
+    gap: 1rem;
+    margin-bottom: 1rem;
+ }
+ #email:focus{
+    border-color: var(--color-blue);
+    box-shadow: 0 0 0 2px var(--color-grey2);
+ }
+#pass{
+    border: 1px solid var(--color-grey2);
+    border-radius: 6px;
+    width: 90%;
+    padding: 1rem;
+    outline-color: var(--color-blue);
+    font-size: 1.2rem;
+    gap: 1rem;    
+}
+#pass:focus{
+    border-color: var(--color-blue);
+    box-shadow: 0 0 0 2px var(--color-grey2);
+}
+.enterbutton{
+    display: flex;
+}
+.enter{
+    border: none;
+    background-color: var(--color-blue);
+    color: white;
+    width: 21rem;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: .2s;
+}
+.enter:hover{
+    background-color: var(--color-blue2);
+}
+
+#fogot{
+    text-decoration: none;
+    color: var(--color-blue);
+}    
+#fogot:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.CreateNew_account{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--color-white);
+    background-color: var(--color-green);
+    color: white;
+    padding: 1rem;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: .2s;
+}
+.CreateNew_account:hover{
+   background-color: var(--color-green2);
+}
+#new-account{
+    text-decoration: none;
+    color: white;
+}
+._58mk{
+    gap: 1rem;
+    padding: 20px;
+    font-size: 1.rem;
+    text-align: center;
+}
+#reg_pages_msg{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font: bolder;
+    font-weight: 600;
+    gap: 1rem;
+}
+#reg_pages_msg:hover{
+    text-decoration: underline;
+}
