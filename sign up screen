@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="shortcut icon" href="https://static.xx.fbcdn.net/rsrc.php/yD/r/d4ZIVX-5C-b.ico?_nc_eui2=AeErYYEQcKgYdoWuFqwGDu4maBWfmC2eGbdoFZ-YLZ4Zt6HPFmCLp2yfW8zDHD90YP4TS9wH0JFPVrsr4ybQZac5" type="image/x-icon">
+    <title>Facebook - entre ou cadastre-se</title>
+<body>
+    <header class="cabecalho">
+        <img class="_img" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="facebook" srcset="">
+        <h2 class="_esl">
+            Faça parte da maior rede social do mundo!
+        </h2>        
+    </header>
+    <div>
+        <hr>
+    </div>
+
+    <main id="primary-content">
+        <article id="signup-content">
+            <section class="titles">
+                <section class="title_1">
+                    <h2>Cadastre-se</h2>
+                </section>
+                <section class="title_2">
+                    <h3>É rápido e fácil.</h3>
+                </section>
+            </section>
+            <hr>
+            <article class="login_box">
+                <section class="login">
+                    <input type="text" placeholder="Nome" class="input_1 name-box border">
+                    <input type="text" placeholder="Sobrenome" class="input_1 lastname-box border">
+                </section>                
+                <input type="text" placeholder="Celular ou Email" class="inputs email-box border">
+                <input type="password" placeholder="Nova Senha" class="inputs pass-box border">
+            </article>
+            <article>
+                <section>
+                    <p>Já faz parte de nossa comunidade?</p>
+                </section>
+                <section class="enter">
+                    <button class="btn">
+                        <a href="facebook1.0.html">Entre</a>
+                    </button>
+                </section>
+            </article>            
+        </article>        
+    </main>
+</body>
+</html>
